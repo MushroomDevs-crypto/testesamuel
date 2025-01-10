@@ -37,5 +37,5 @@ myStream = tweepy.Stream(auth=api.auth, listener=myStreamListener)
 myStream.filter(track=['@Mushroomdevs'], is_async=True)
 
 if __name__ == "__main__":
-    myStream.filter(track=['@SeuBot'], is_async=True)
+    myStream.filter(track=['@Mushroomdevs'], is_async=True)
 
